@@ -1,0 +1,15 @@
+<h1>Ejercicio 1 Condicionales</h1>
+<h4>Pedir dos números y decir si son iguales o no.</h4>
+<p>
+    <label for="num1">Introduce el primer número:  </label>
+    <input type="text" size="10" [(ngModel)]="numero1"/>
+</p>
+<p>
+    <label for="num2">Introduce el segundo número:  </label>
+    <input type="text" size="10" [(ngModel)]="numero2"/>
+</p>
+<button (click)="calcularResultado()">Calcular</button>
+<h5>Resultado:</h5>
+{{resultado}}
+
+
