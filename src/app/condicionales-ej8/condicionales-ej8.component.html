@@ -1,0 +1,9 @@
+<h1>Ejercicio 8 Condicionales</h1>
+<h4>Pedir un número entre 0 y 9.999 y decir cuantas cifras tiene.</h4>
+<p>
+    <label for="numero">Introduce el número:  </label>
+    <input type="number" [(ngModel)]="numero"/>
+</p>
+<button (click)="calcularResultado()">Calcular</button>
+<h5>Resultado:</h5>
+{{resultado}}

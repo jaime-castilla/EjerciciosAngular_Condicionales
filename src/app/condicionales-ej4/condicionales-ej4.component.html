@@ -1,0 +1,13 @@
+<h1>Ejercicio 4 Condicionales</h1>
+<h4>Pedir dos números y decir si uno es múltiplo de otro.</h4>
+<p>
+    <label for="numero1">Introduce el primer número:  </label>
+    <input type="number" [(ngModel)]="numero1"/>
+</p>
+<p>
+    <label for="numero2">Introduce el segundo número:  </label>
+    <input type="number" [(ngModel)]="numero2"/>
+</p>
+<button (click)="calcularResultado()">Calcular</button>
+<h5>Resultado:</h5>
+{{resultado}}

@@ -1,0 +1,18 @@
+<h1>Ejercicio 7 Condicionales</h1>
+<h4>Pedir tres números y mostrarlos ordenados de mayor a menor.</h4>
+<p>
+    <label for="numero1">Introduce el primer número:  </label>
+    <input type="number" [(ngModel)]="numero1"/>
+</p>
+<p>
+    <label for="numero2">Introduce el segundo número:  </label>
+    <input type="number" [(ngModel)]="numero2"/>
+</p>
+<p>
+    <label for="numero3">Introduce el tercer número:  </label>
+    <input type="number" [(ngModel)]="numero3"/>
+</p>
+<button (click)="calcularResultado()">Calcular</button>
+<h5>Resultado:</h5>
+{{resultado}}
+
