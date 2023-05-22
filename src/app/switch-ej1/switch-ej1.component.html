@@ -1,0 +1,16 @@
+<h1>Ejercicio 1 Switch</h1>
+<h4>Realiza un ejercicio en el que indique el estado civil (Casado, Divorciado, Soltero y Viudo) de una persona.</h4>
+<h3>Estados civiles:</h3>
+<ul>
+    <li>(C) Casado</li>
+    <li>(D) Divorciado</li>
+    <li>(S) Soltero</li>
+    <li>(V) Viudo</li>
+</ul>
+<p>
+    <label for="letra">Introduce la letra que corresponde con cada estado civil:  </label>
+    <input type="text" [(ngModel)]="estadoCivil"/>
+</p>
+<button (click)="sacarResultado()">Resultado</button>
+<h5>Resultado:</h5>
+{{resultado}}

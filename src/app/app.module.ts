@@ -13,6 +13,7 @@ import { CondicionalesEj6Component } from './condicionales-ej6/condicionales-ej6
 import { CondicionalesEj7Component } from './condicionales-ej7/condicionales-ej7.component';
 import { CondicionalesEj8Component } from './condicionales-ej8/condicionales-ej8.component';
 import { CondicionalesEj9Component } from './condicionales-ej9/condicionales-ej9.component';
+import { SwitchEj1Component } from './switch-ej1/switch-ej1.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CondicionalesEj9Component } from './condicionales-ej9/condicionales-ej9
     CondicionalesEj6Component,
     CondicionalesEj7Component,
     CondicionalesEj8Component,
-    CondicionalesEj9Component
+    CondicionalesEj9Component,
+    SwitchEj1Component
   ],
   imports: [
     BrowserModule,
