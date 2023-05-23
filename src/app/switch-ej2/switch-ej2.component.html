@@ -1,0 +1,9 @@
+<h1>Ejercicio 2 Switch</h1>
+<h4>Pedir una nota de 0 a 10 y mostrarla de la forma: Insuficiente, Suficiente, Bien...</h4>
+<p>
+    <label for="nota">Introduce la nota obtenida:  </label>
+    <input type="number" size="10" [(ngModel)]="nota"/>
+</p>
+<button (click)="mostrarNota()">Mostrar nota</button>
+<h5>Resultado:</h5>
+{{resultado}}

@@ -1,0 +1,14 @@
+<h1>Ejercicio 4 Switch</h1>
+<h4>Pedir el dia, mes y año de una fecha e indicar si la fecha es correcta. Con meses de 28, 30 y 31 dias. Sin años bisiestos.</h4>
+<p>
+    <label for="fecha">Introduce una fecha:  </label>
+    <label for="dia">Dia:  </label>
+    <input type="number" placeholder="Dia" [(ngModel)]="dia"/>
+    <label for="mes">Mes:  </label>
+    <input type="text" placeholder="Mes" [(ngModel)]="mes"/>
+    <label for="año">Año:  </label>
+    <input type="number" placeholder="Año" [(ngModel)]="anio"/>
+</p>
+<button (click)="validarFecha()">Validar fecha</button>
+<h5>Resultado:</h5>
+{{resultadoFinal}}

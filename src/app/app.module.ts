@@ -14,6 +14,9 @@ import { CondicionalesEj7Component } from './condicionales-ej7/condicionales-ej7
 import { CondicionalesEj8Component } from './condicionales-ej8/condicionales-ej8.component';
 import { CondicionalesEj9Component } from './condicionales-ej9/condicionales-ej9.component';
 import { SwitchEj1Component } from './switch-ej1/switch-ej1.component';
+import { SwitchEj2Component } from './switch-ej2/switch-ej2.component';
+import { SwitchEj3Component } from './switch-ej3/switch-ej3.component';
+import { SwitchEj4Component } from './switch-ej4/switch-ej4.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { SwitchEj1Component } from './switch-ej1/switch-ej1.component';
     CondicionalesEj7Component,
     CondicionalesEj8Component,
     CondicionalesEj9Component,
-    SwitchEj1Component
+    SwitchEj1Component,
+    SwitchEj2Component,
+    SwitchEj3Component,
+    SwitchEj4Component
   ],
   imports: [
     BrowserModule,
